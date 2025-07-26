@@ -1,19 +1,20 @@
-//  * * * *
-//  * * * *
-//  * * * *
-//  * * * *
+// * 
+// * *
+// * * *
+// * * * *
+
 
 #include<iostream>
 using namespace std;
 int main(){
     int n;
-    cout<<"Number of colums :";
+    cout<<"Number of side square  :";
     cin>>n;
     for (int i = 1; i <= n; i++)
     {
-        for (int j = 1; j <= n; j++)
+        for (int j = 1; j <= i; j++)
         {
-            cout<<" *";
+            cout<<"*"<<" ";
         }
         cout<<endl;
     }
