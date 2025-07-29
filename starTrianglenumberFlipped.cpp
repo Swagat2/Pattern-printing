@@ -8,6 +8,7 @@
 using namespace std;
 
 int main() {
+    
     int n = 4; // You can take input too: cin >> n;
 
     for (int i = 1; i <= n; i++) {
